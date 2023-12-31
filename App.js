@@ -4,7 +4,7 @@ import Main from './src/components/screens/Main';
 export default function App()
 {
   return (
-    <Main />
+    <Main/>
   );
 } 
 

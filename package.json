@@ -1,6 +1,7 @@
 {
   "name": "drawertemplate",
   "version": "1.0.0",
+  "type": "module",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -21,7 +22,9 @@
     "react-native-reanimated": "~3.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2"
   },
   "private": true
 }

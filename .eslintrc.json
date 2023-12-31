@@ -13,12 +13,15 @@
         "sourceType": "module"   
     },
     "plugins": [
-        "react"
+        "react",
+        "import"
     ],
     "rules": {
+        "import/export": 2,
         "no-unused-vars":"off",
         "no-unused-expressions":"off",
         "no-unused-labels":"off",
-        "react/react-in-jsx-scope":"off"
+        "react/react-in-jsx-scope":"off",
+        "react/prop-types": ["warn", { "ignore": ["navigation"] }]
     }
 }

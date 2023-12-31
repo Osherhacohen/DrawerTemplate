@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import { StatusBar, StyleSheet, Text, View } from 'react-native';
 
 const Main = () =>
 {
+    const [temp_user, set_temp_user] = useState({});
     return (
         <>
             <View style={styles.container}>
